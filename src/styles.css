@@ -1,0 +1,18 @@
+/* Light mode default */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles when <html> has class 'dark' */
+html.dark body {
+  background-color: #121212;
+  color: white;
+}
+
+/* Button styling */
+button {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
